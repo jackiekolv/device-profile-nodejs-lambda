@@ -1,0 +1,7 @@
+{
+  "name": "device-profile-nodejs-lambda",
+  "version": "0.1.0",
+  "devDependencies": {
+    "mysql": "^2.12.0"
+  }
+}
