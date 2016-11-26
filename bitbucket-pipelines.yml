@@ -12,6 +12,6 @@ pipelines:
           - apt-get update # required to install zip
           - apt-get install -y zip # required for packaging up the application
           - npm install
-          - zip -r package.zip
+          - zip -r package.zip .
           - ls -l /opt/atlassian/pipelines/agent/
           - python lambda_deploy.py
