@@ -1,3 +1,4 @@
+
 exports.handler = (event, context, callback) => {
     var mysql      = require('mysql');
     var connection = mysql.createConnection(process.env.connection_string);
@@ -14,5 +15,5 @@ exports.handler = (event, context, callback) => {
     });
     
     connection.end();
-    callback(null, "SUCCESS");
+    callback(null, "SUCCESS by Node.js");
 };
